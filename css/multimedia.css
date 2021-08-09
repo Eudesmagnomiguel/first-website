@@ -1,0 +1,82 @@
+@charset 'utf-8';
+
+/* DIV controle de Multimedia */
+#multimedia{ width:900px; height:580px;
+margin:auto;
+background-image: url("../img/radio-tv.png");
+background-repeat: no-repeat;}
+
+/* Video class 
+#filme{width:395px; margin-left:308px;
+-webkit-transform:rotate(2deg);
+ height:240px;
+object-fit:cover;
+box-shadow:-9px 3px 15px #000;}
+*/
+.audios{display:block; position:relative; 
+top:490px; left:575px; width:300px;}
+
+
+/* Outra  forma para colocar video dentro de uma imagem no fundo */
+
+#filme{display:block; position:relative;
+top:25px; left:79px;}
+
+
+/* FeedBack */
+
+#contacto{width:800px; margin:auto;}
+#contacto input{font-family:roboto, Arial, sans serif;
+font-size:1.6em;}
+
+#contacto input:hover{
+background-color:#c3d6d5;
+}
+#contacto textarea:hover{
+background-color:#c3d6d5;
+opacity:1;
+}
+
+#contacto legend{
+font-weight:bolder;
+font-size:1.6em;
+color:#888;
+font-family:roboto, Arial, Sans serif;
+}
+
+#contacto fieldset{
+/*border-color:#cecece;*/
+border-radius:6px;
+border:4px solid;
+margin:20px;
+border-image:linear-gradient(56deg, #527f7b 50%, #cf771e 45%)2;
+}
+#contacto label{font-weigth:bold; font-family:Arial; roboto, sans serif;
+font-size:1.6em;}
+
+#province {font-size:1.3em;}
+#messenge{font-size:1.1em;
+opacity:0.5;}
+
+#user{background: url("../img/icone-contato.png") no-repeat 95% 95%;
+}
+#user:hover{box-shadow:-16px 16px 19px #c3d6d5;
+-webkit-transition:all 1s ease;}
+#sexo{width:200px;}
+
+#Endereco{background: url("../img/icone-endereco.png") no-repeat 95% 95%;
+}
+#Endereco:hover{box-shadow:-16px 16px 19px #c3d6d5;
+-webkit-transition:all 1s ease;}
+
+#menssenger{background: url("../img/icone-mensagem.png") no-repeat 95% 95%;
+}
+#menssenger:hover{box-shadow:-16px 16px 19px #c3d6d5;
+-webkit-transition:all 1s ease;}
+
+#pc{background:url("../img/icone-pagamento.png") no-repeat 95% 95%;
+}
+#pc:hover{box-shadow:-16px 16px 19px #c3d6d5;
+-webkit-transition:all 1s ease;}
+
+#sending{margin-left:250px; }

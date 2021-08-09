@@ -1,0 +1,98 @@
+@charset 'UTF-8';
+
+body{Background-image:linear-gradient(126deg, lightgreen,orange );}
+
+#interface{background-color:white;
+margin:-20px auto 0px auto; 
+padding:5px;
+box-shadow:12px 8px 12px black; width:1000px;}
+
+#cabecalho {width:100%}
+#cabecalho img{margin-left:450px;}
+
+#menu {background-color:lightblue;  width:100%; padding:5px; box-sizing:border-box; padding:5px;}
+#menu li{list-style:none; display:inline-block; padding:2px; 
+text-transform:uppercase; color:blue;
+margin-left:4px;}
+#menu a{text-decoration:none; color:black;}
+
+#menu a:hover{color:white; -webkit-transition:1s;}
+#h2a {background-color:lightblue; border-radius:9px;
+border:2px dashed white;}
+#h2d{text-align:center; background-color:white; border:3px dotted black; width:400px; margin-left:260px;
+border-radius:24px;
+padding:2px;}
+
+/*  Color no Título desenvolvimento */
+#h2d:hover{color:blue;}
+
+#paihtml {width:100%;}
+#filhohtml1{float:left;}
+
+#filhohtml2 img{width:400px; height:310px;}
+#filhohtml2 {float:right; 
+border-radius:23px;}
+
+#filhohtml3 {width:100%; clear:both; background-color:lightgray; }
+.filhoshtml {width:47%; margin-bottom:5px; padding:6px; background-color:lightgray;
+border:2px dotted white; border-radius:23px;}
+
+#listord{list-style:none; margin:8px; }
+
+p{text-indent:5px; text-align:justify; 
+font-family:cambria, helvetica, sans serif;
+hyphens:auto;}
+
+#listord li:hover{color:lightblue; text-transform:uppercase; font-family:Arial;}
+
+strong{font-style:italic;}
+#rodape{background-image:linear-gradient(45deg, lightgreen,orange);
+padding:10px; font-weight:bolder; text-align:center; margin:4px;
+font-size:1.1em;
+border-radius:6px; }
+
+figure{text-align:center;}
+#rodape{width:100%; box-sizing:border-box; padding:5px; margin:3px;}
+#rodape a{text-decoration:none; color:black;}
+#rodape p{color:black; text-align:center;}
+#rodape a:hover{color:white; text-transform:uppercase; -webkit-transition:1s;}
+
+*/  CSS Contéudos */
+
+#paicss{width:100%;}
+
+#filhocss1 img{width:440px; height:390px;}
+#filhocss1 {float:left;}
+
+#filhocss2{float:right;}
+#filhocss3{width:100%; clear:both;  background-color:whitesmoke;}
+.filhoscss{width:46%; margin-bottom:10px; padding:7px;
+ border:2px dotted gray; 
+border-radius:24px;
+background-color:whitesmoke;}
+
+h2{background-image:linear-gradient(86deg, lightgreen,orange);
+font-size:1.9em;}
+/* Animações nos títulos H2 */
+h2:hover{background-image:linear-gradient(86deg, orange,lightgreen);
+-webkit-transition:1s;}
+
+/* JAVASCRIPT CONTÉUDO */
+
+#paijs{width:100%; background-color:darkgray; padding-top:10px;}
+#filhojs3{margin-right:3px;}
+#filhojs3 img{width:260px; height:345px; padding:8px;  }
+.filhosjs{width:29%; display:inline-block; 
+background-color:whitesmoke;
+margin-bottom:5px;
+padding:10px;
+box-sizing:border-box;
+border:3px groove gray;
+border-radius:24px;
+margin-left:25px;
+text-align:justify; text-indent:4px;}
+
+
+/* Animações no contéudo javascript */
+.filhosjs:hover{background-color:white;}
+
